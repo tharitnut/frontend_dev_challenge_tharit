@@ -7,10 +7,10 @@ submission instructions.
 
 ## Requirements
 
-| Tool | Version |
-|---|---|
+| Tool    | Version                                                                         |
+| ------- | ------------------------------------------------------------------------------- |
 | Flutter | **3.27.0** (exactly — a `.fvmrc` is included if you use [fvm](https://fvm.app)) |
-| Java | **17** (required for the Android build) |
+| Java    | **17** (required for the Android build)                                         |
 
 The app targets Android and iOS. No API keys, accounts, or backend needed —
 the app runs against a bundled simulated backend.
@@ -53,8 +53,8 @@ assets/data/           seed data for the simulated backend
 
 - **Console logs**: every simulated API call and analytics event is logged —
   keep the console open.
-- **Analytics debug screen**: Home → overflow menu (⋮) → *Analytics debug*.
-- **Deep links**: Home → ⋮ → *Simulate deep link…*, or on Android:
+- **Analytics debug screen**: Home → overflow menu (⋮) → _Analytics debug_.
+- **Deep links**: Home → ⋮ → _Simulate deep link…_, or on Android:
 
   ```bash
   adb shell am start -a android.intent.action.VIEW \
